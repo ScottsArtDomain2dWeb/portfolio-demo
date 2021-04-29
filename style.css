@@ -1,0 +1,129 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Fredoka+One&family=Rubik&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik&display=swap');
+
+body{
+	background-color: #EB8A68;
+    font-family: 'Rubik', sans-serif;
+    color: #003652;
+}
+
+h1,h2{
+	font-family: 'Fredoka One', cursive;
+	font-size:4em;
+    color: #363A43;
+    text-align:center; 
+    font-weight:bold;
+    text-shadow: 3px 3px #E05F67;
+}
+nav ul{
+	color: #E05F67;
+	list-style-type: none;
+    text-align: center;
+    padding: 15px 0;
+    margin:0 auto;
+    border-top: #E05F67 2px solid;
+    border-bottom: #E05F67 2px solid;
+
+}
+nav li{
+	display: inline;
+    margin: 5px 10px;
+}
+nav a{
+    text-decoration:none;
+    text-transform:uppercase;
+}
+nav a:link{
+	color: #006D91;
+}
+nav a:visited{
+	color: #006D91;
+}
+nav a:hover{
+	color: white;
+    text-decoration:none;
+}
+nav a:active{
+	color: black;
+}
+
+main{
+	max-width: 1200px;
+	margin:0 auto;
+}
+.home-hero{
+	background-image: url(SGme.jpeg);
+	height: 475px;
+	background-size:cover;
+	background-position: center;
+	color: #042837;
+	padding: 10px 10px 10px 30px; 
+}
+.col-sm-4{
+    background-position: center;
+}
+
+
+h2{
+	margin-bottom:1px;
+	margin-top:5px;
+    font-weight:bold;
+}
+h3{
+	font-family: 'Fredoka One', cursive;
+	margin-top:1px;
+	margin-bottom:20px;
+	font-weight:bold;
+	color: #363A43;
+    text-shadow: 1px 1px #DE7002;
+
+}
+img{
+    margin:0 auto;
+    display:block;
+}
+.col-sm-4 h3{
+    text-align:center;
+}
+blockquote{
+	margin:30px;
+}
+footer{
+	color:white;
+	background-color: #363A43;
+	text-align:center;
+	padding:15px;
+	margin:0;
+	display:block;
+}
+footer a:link{
+    color:white;
+}
+
+.icons .fa{
+	font-size: 5em;
+    color:  #7ddeff;
+	
+}
+.icons{
+	text-align:center;
+	padding: 40px 0 ;
+    color: #7ddeff;
+    max-width:1200px;
+    margin:0 auto;
+    
+}
+
+/* CSS Adjustments for Tablets */
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 1.8em;
+	}
+}
+
+/* CSS Adjustments for Smartphones */
+@media only all and (max-width: 768px) {
+	h1{
+	    font-size: 1.5em;
+	}
+}
